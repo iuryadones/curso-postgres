@@ -7,6 +7,8 @@ Downloads:
 Reference:
 
  - [postgres/docs](https://www.postgresql.org/docs) 
+ - [postgres/wiki](https://wiki.postgresql.org/wiki)
+ - [postgres/slides](https://wiki.postgresql.org/wiki/PostgreSQL_Related_Slides_and_Presentations)
 
 ## Run
 
