@@ -1,7 +1,5 @@
 FROM ubuntu:latest
 
-# EXPOSE
-
 RUN apt update
 RUN apt install postgresql-10 postgresql-contrib -y
 
@@ -19,6 +17,4 @@ USER root
 
 RUN service postgresql start
 
-USER postgres
-CMD ["psql"]
-
+CMD ["bash"]
