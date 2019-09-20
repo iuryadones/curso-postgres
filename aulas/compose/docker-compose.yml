@@ -23,6 +23,8 @@ services:
       - "16543:80"
     depends_on:
       - postgres
+    volumes:
+      - /home/${USER}/docker/volumes/postgres:/var/lib/pgadmin
     networks:
       - postgres-network
 
