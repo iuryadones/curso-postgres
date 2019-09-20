@@ -108,7 +108,13 @@ Se tiver algum problema instale outra imagem do fedora
 
 ```bash
 $ docker pull fedora/systemd-systemd
+$ docker run --name pgmaster -it -d IMAGE_ID
 $ docker run --rm --privileged -ti -e 'container=docker' -v /sys/fs/cgroup:/sys/fs/cgroup:ro rawhide_systemd /bin/bash
+```
+
+obs: version fedora 24
+```bash
+# rpm -Uvh https://yum.postgresql.org/10/fedora/fedora-24-x86_64/pgdg-fedora-repo-latest.noarch.rpm 
 ```
 
 References:
