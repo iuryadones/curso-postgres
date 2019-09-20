@@ -124,3 +124,4 @@ References:
  - [config-master-slave-centos](https://www.howtoforge.com/tutorial/how-to-install-and-configure-master-slave-replication-with-postgresql-96-on-centos-7/)
  - [install-postgres-ubuntu](https://www.digitalocean.com/community/tutorials/como-instalar-e-utilizar-o-postgresql-no-ubuntu-16-04-pt)
  - [hub.docker/fedora](https://hub.docker.com/_/fedora)
+ - [postgres-pgadmin](https://medium.com/@renato.groffe/postgresql-docker-executando-uma-inst%C3%A2ncia-e-o-pgadmin-4-a-partir-de-containers-ad783e85b1a4)
