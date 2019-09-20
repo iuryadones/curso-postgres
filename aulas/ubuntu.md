@@ -11,27 +11,16 @@ $ docker exec -it CONTAINER_ID bash
 ```
 
 ```bash
-# service postgresql start 
-```
-
-```bash
 # export PGDATA=/pgdata/10/data 
 # mkdir -p $PGDATA
 # chown -R postgres:postgres /pgdata
 ```
 
 ```bash
-# service postgresql stop
-```
-
-```bash
 # su - postgres
 $ export PGDATA=/pgdata/10/data 
 $ /usr/lib/postgresql/10/bin/initdb -D $PGDATA
-```
-
-```bash
-# service postgresql start 
+$ /usr/lib/postgresql/10/bin/pg_ctl -D /pgdata/10/data -l logfile start
 ```
 
 ```bash
