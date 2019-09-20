@@ -7,7 +7,7 @@ Downloads:
 Reference:
 
  - [postgres/docs](https://www.postgresql.org/docs) 
- - [postgres/wiki](https://wiki.postgresql.org/wiki)
+ - [postgres/wiki](https://wiki.postgresql.org/wiki/)
  - [postgres/slides](https://wiki.postgresql.org/wiki/PostgreSQL_Related_Slides_and_Presentations)
 
 ## Run
@@ -18,7 +18,19 @@ Docker:
 $ docker run --name curso-postgres -e POSTGRES_PASSWORD=asenha123 -d postgres
 $ docker ps
 $ docker exec -it curso-postgres bash
+```
+
+Acess postgres:
+
+```bash
 $ psql --username "postgres" 
+```
+
+or
+
+```bash
+$ su - postgres
+$ psql
 ```
 
 VarIn docker postgres:
