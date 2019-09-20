@@ -1,5 +1,12 @@
 
+## Up
 
 ```bash
-$ docker-compose up . --build
+$ docker-compose -f docker-comose.yml up --build
+```
+
+## Down
+
+```bash
+$ docker-compose -f docker-comose.yml down
 ```
