@@ -14,5 +14,6 @@ $ docker-compose -f docker-compose.yml down
 # Deploy Stack
 
 ```bash
-docker stack -c docker-compose-cluster.yml deploy
+$ docker swarm init
+$ docker stack deploy -c docker-compose-cluster.yml teste
 ```
