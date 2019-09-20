@@ -21,8 +21,16 @@ $ docker exec -it CONTAINER_ID bash
 ```
 
 ```bash
+# service postgresql stop
+```
+
+```bash
 # su - postgres
 $ /usr/lib/postgresql/10/bin/initdb -D $PGDATA
+```
+
+```bash
+# service postgresql start 
 ```
 
 ```bash
