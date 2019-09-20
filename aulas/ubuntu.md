@@ -15,7 +15,18 @@ $ docker exec -it CONTAINER_ID bash
 ```
 
 ```bash
-# su - postgres -c "psql"  
+# export PGDATA=/pgdata/10/data 
+# mkdir -p $PGDATA
+# chown -R postgres:postgres /pgdata
+```
+
+```bash
+# su - postgres
+$ /usr/lib/postgresql/10/bin/initdb -D $PGDATA
+```
+
+```bash
+$ psql  
 psql (10.0)
 Type "help" for help.
 
