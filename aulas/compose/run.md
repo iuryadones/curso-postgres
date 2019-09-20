@@ -2,11 +2,11 @@
 ## Up
 
 ```bash
-$ docker-compose -f docker-comose.yml up --build
+$ docker-compose -f docker-compose.yml up --build
 ```
 
 ## Down
 
 ```bash
-$ docker-compose -f docker-comose.yml down
+$ docker-compose -f docker-compose.yml down
 ```
