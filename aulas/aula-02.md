@@ -43,7 +43,9 @@ você pode adicionar nome ao container, basta executar `docker run` com argument
 $ docker run --name pg-master -it -d IMAGE_ID
 ```
 
-## POSTEGRES
+## POSTGRES
+
+O `CONTAINER_ID` será a imagem do linux para instalação do postgres
 
 ```bash
 $ docker exec -it CONTAINER_ID bash
