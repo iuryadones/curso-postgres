@@ -6,6 +6,11 @@ $ docker exec -it CONTAINER_ID bash
 ```
 
 ```bash
+# apt update
+# apt install postgresql-10
+```
+
+```bash
 # service postgresql start 
 ```
 
