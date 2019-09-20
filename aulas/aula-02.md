@@ -92,7 +92,7 @@ Testing:
 
 ```bash
 # su - postgres -c "psql"  
-psql (11.0)
+psql (10.0)
 Type "help" for help.
 
 postgres=# 
@@ -111,8 +111,8 @@ $ docker run --rm --privileged -ti -e 'container=docker' -v /sys/fs/cgroup:/sys/
 
 References:
 
-[install-postgres-fedora](https://tecadmin.net/install-postgresql-11-on-fedora/)
-[most-useful-commands-postgres](https://www.technobytz.com/most-useful-postgresql-commands.html)
-[config-master-slave-centos](https://www.howtoforge.com/tutorial/how-to-install-and-configure-master-slave-replication-with-postgresql-96-on-centos-7/)
-[install-postgres-ubuntu](https://www.digitalocean.com/community/tutorials/como-instalar-e-utilizar-o-postgresql-no-ubuntu-16-04-pt)
-[hub.docker/fedora](https://hub.docker.com/_/fedora)
+ - [install-postgres-fedora](https://tecadmin.net/install-postgresql-11-on-fedora/)
+ - [most-useful-commands-postgres](https://www.technobytz.com/most-useful-postgresql-commands.html)
+ - [config-master-slave-centos](https://www.howtoforge.com/tutorial/how-to-install-and-configure-master-slave-replication-with-postgresql-96-on-centos-7/)
+ - [install-postgres-ubuntu](https://www.digitalocean.com/community/tutorials/como-instalar-e-utilizar-o-postgresql-no-ubuntu-16-04-pt)
+ - [hub.docker/fedora](https://hub.docker.com/_/fedora)
